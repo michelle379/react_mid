@@ -27,12 +27,6 @@ code {
 
 }
 
-.fea h1{
-  color: #646464;
-  font-size: 30px;
-}
-
-
 .word{
   color: #ffc755;
   font-size: 25px;
@@ -81,29 +75,40 @@ code {
 .footer {
   background-color: #8d7d7e;
   color:#ffc755;
-  display: flex;
-  justify-content:space-around;
-  align-items: stretch;
-  gap: 2rem;
-  padding: 0 1rem;
 }
 
 .footer-title{
   font-size: 2rem;
+  color:#ffc755;
+  gap: 1rem;
   
 }
 
 .footer h4{
-  font-size: 3rem;
-  color:#ffc755;
-  
+  color: white;
+  font-size: 1rem;
 }
+
+.footer p{
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
 
 /* Home */
 
 /* FEATURES */
 .fea{
   background-color: #f6f3c1;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.fea h1{
+  color: #646464;
+  font-size: 30px;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
@@ -251,8 +256,6 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-
-
 }
 
 .p-2 p{
@@ -260,7 +263,5 @@ code {
   font-size: 20px;
   display: flex;
   justify-content: space-between;
-
-
 }
 
