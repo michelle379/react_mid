@@ -1,0 +1,26 @@
+[
+    {
+      "id": "0",
+      "name": "搜尋服務",
+      "image": "/images/p6.jpg",
+      "description": "瀏覽所需要的服務，依自己的時間進行預約"
+    },
+    {
+      "id": "1",
+      "name": "線上預約",
+      "image": "/images/p5.jpg",
+      "description": "跟著步驟填寫資料，輕鬆預定家事服務"
+    },
+    {
+      "id": "2",
+      "name": "到府清潔",
+      "image": "/images/p7.jpg",
+      "description": "預約當天服務專員，提早到場溝通細節"
+    },
+    {
+      "id": "3",
+      "name": "服務驗收",
+      "image": "/images/p8.jpg",
+      "description": "清潔完成逐項驗收，有問題皆可回報給我們"
+    }
+]

@@ -1,25 +1,63 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css';
+import Home from './pages/Home'
+import Indoor from './pages/Indoor'
+import Blockage from './pages/Blockage'
+import Bugs from './pages/Bugs'
+import DoorWindowFix from './pages/DoorWindowFix'
+import Storage from './pages/Storage'
+import Feedback from './pages/Feedback';
+import NavBar from './components/Navbar';
+import Footer from './components/Footer';
+import Components from './pages/components';
+import Reserve from './pages/Reserve';
+
+import Sidenav from './components/Sidenav';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <NavBar />
+      <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/components" element={<Components />} />
+            <Route path="/indoor" element={<Indoor />} />
+            <Route path="/storage" element={<Storage />} />
+            <Route path="/bugs" element={<Bugs />} />
+            <Route path="/blockage" element={<Blockage />} />
+            <Route path="/DoorWindowFix" element={<DoorWindowFix />} />
+            <Route path="/feedback" element={<Feedback />} />
+            <Route path="/reserve" element={<Reserve />} />
+          </Routes>
+
+        </div>
+        <Footer />
+    </>
   );
 }
 
+
 export default App;
+
+// <>
+// <div className="App">
+//   <Sidenav/>
+//   <main>
+//     <NavBar />
+//       <Routes>
+//         <Route path="/" element={<Home />} />
+//         <Route path="/components" element={<Components />} />
+//         <Route path="/indoor" element={<Indoor />} />
+//         <Route path="/storage" element={<Storage />} />
+//         <Route path="/bugs" element={<Bugs />} />
+//         <Route path="/blockage" element={<Blockage />} />
+//         <Route path="/DoorWindowFix" element={<DoorWindowFix />} />
+//         <Route path="/feedback" element={<Feedback />} />
+//         <Route path="/reserve" element={<Reserve />} />
+//       </Routes>
+//        </main>
+//     </div>
+//     <Footer />
+// </>

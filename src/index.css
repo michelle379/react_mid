@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,251 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar */
+.nav{
+  background-color: #646464;
+  color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+
+}
+
+.word{
+  color: #ffc755;
+  font-size: 25px;
+}
+
+
+.site-title{
+  font-size: 2rem;
+}
+
+.nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav h1{
+  color: #646464;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav a:hover{
+  color: peru;
+  text-decoration: none;
+}
+
+.nav li.active{
+  background-color: beige;
+}
+
+.nav li:hover{
+  background-color: lightyellow;
+}
+
+/* Footer */
+.footer {
+  background-color: #8d7d7e;
+  color:#ffc755;
+  display: flex;
+  justify-content:space-around;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.footer-title{
+  font-size: 2rem;
+  
+}
+
+.footer h4{
+  font-size: 3rem;
+  color:#ffc755;
+  
+}
+
+/* Home */
+
+/* FEATURES */
+.fea{
+  background-color: #f6f3c1;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.fea h1{
+  color: #646464;
+  font-size: 30px;
+}
+
+/* RESERVATION PROCESS */
+
+.rp{
+  background-color: white;
+
+  display: flex;
+  justify-content:center;
+  
+}
+
+.rp h1{
+  color: #646464;
+  font-size: 30px;
+}
+
+.rp h3{
+  color: #646464;
+  font-size: 15px;
+}
+
+
+
+.work {
+  width: 100%;
+  display:flex;
+  align-self: center;
+  flex:1 1 18rem;
+  margin: 0.5rem ;
+  border: 5px;
+  justify-content: space-around;
+}
+
+.toppic {
+  width: 100%;
+  display:flex;
+  align-self: center;
+  flex:1 1 18rem;
+  margin: 0.5rem ;
+  border: 5px;
+  justify-content: space-around;
+}
+
+.process {
+  display:flex;
+  align-self: center;
+  flex:1 1 18rem;
+  margin: 0.5rem ;
+  border: 5px;
+  justify-content: space-around;
+
+}
+
+.news{
+  background-color: #ffe8a5;
+
+  display: flex;
+  justify-content:center;
+  
+}
+
+.news h1{
+  color: #646464;
+  font-size: 30px;
+}
+
+.p-4 h5{
+  color: #3E3E3E;
+  font-size: 20px;
+    display: flex;
+  justify-content: space-around;
+
+}
+
+.p-4 h3{
+  color: #3E3E3E;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+
+.p-4 h4{
+  color: red;
+  font-size: 20px;
+  display: flex;
+
+}
+
+.p-4 h1{
+  color: #3E3E3E;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  font-weight:bold;
+
+}
+
+.p-4 p{
+  color: #3E3E3E;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  
+
+
+}
+
+
+.p-2 h5{
+  color: #ffc755;
+  font-size: 20px;
+    display: left;
+  justify-content: space-around;
+
+}
+
+.p-2 h2{
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+}
+
+.p-2 h4{
+  color: #ffc755;
+  font-size: 40px;
+  display: flex;
+
+}
+
+.p-2 h1{
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+
+
+}
+
+.p-2 p{
+  color: #3E3E3E;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
