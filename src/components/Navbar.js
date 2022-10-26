@@ -4,7 +4,7 @@ export default function NavBar(){
         <nav className="nav">
             <NavLink to="/" className="site-title">
                 <img src="/images/BrightnessAltHighFill (3).png "></img>
-                <h1>...</h1>FML 家事服務
+                &nbsp;&nbsp;&nbsp;&nbsp;FML 家事服務
             </NavLink>
             <ul>
                 <li className={["active", (navData) => navData.isActive ? "nav-item--active" : "" ]}>

@@ -11,7 +11,7 @@ function Home() {
     <div>
       <Header />
       <div className="fea">
-        <h1 className=""><br />--- FEATURES ---</h1>
+        <h1><br />———&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FEATURES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;———</h1>
       </div>
 
       <div className="fea">
@@ -25,7 +25,7 @@ function Home() {
       </div>
 
       <div className="news">
-        <h1 className=""><br />---LATEST NEWS---</h1>
+        <h1 className=""><br />———&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LATEST NEWS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;———</h1>
       </div>
       <div className="news">
         <div className="container" >
@@ -37,7 +37,7 @@ function Home() {
       </div>
             
       <div className="rp">
-        <h1 className=""><br />---RESERVATION PROCESS---<br />
+        <h1 className=""><br />———&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RESERVATION PROCESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;———<br />
         </h1>
       </div>
       <div className="rp">

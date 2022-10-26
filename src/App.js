@@ -12,8 +12,6 @@ import Footer from './components/Footer';
 import Components from './pages/components';
 import Reserve from './pages/Reserve';
 
-import Sidenav from './components/Sidenav';
-
 function App() {
 
   return (
@@ -40,24 +38,3 @@ function App() {
 
 
 export default App;
-
-// <>
-// <div className="App">
-//   <Sidenav/>
-//   <main>
-//     <NavBar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/components" element={<Components />} />
-//         <Route path="/indoor" element={<Indoor />} />
-//         <Route path="/storage" element={<Storage />} />
-//         <Route path="/bugs" element={<Bugs />} />
-//         <Route path="/blockage" element={<Blockage />} />
-//         <Route path="/DoorWindowFix" element={<DoorWindowFix />} />
-//         <Route path="/feedback" element={<Feedback />} />
-//         <Route path="/reserve" element={<Reserve />} />
-//       </Routes>
-//        </main>
-//     </div>
-//     <Footer />
-// </>
