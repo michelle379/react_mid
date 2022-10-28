@@ -1,16 +1,16 @@
 import { Layout } from 'antd';
 import AppHeader from "../components/Header"
 import AppFooter from "../components/Footer"
-// import ProductList from "../components/ProductList";
-// import lighting from "../json/lighting.json"
+import ProductGrid_list from '../components/ProductGrid_list';
+import storage from "../json/storage.json";
 
 const { Header, Content} = Layout;
 
 function Storage() {
   return (
-    <div>
-      
-    </div>
+    <>
+        <ProductGrid_list products={storage}/>
+    </>
   );
 }
 

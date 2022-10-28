@@ -1,8 +1,15 @@
+import ProductGrid_list from '../components/ProductGrid_list';
+
+import { useSelector } from "react-redux";
+import {selectProducts} from "../redux/productsSlice";
+
+
 function Components() {
+  const products = useSelector(selectProducts);
   return (
-    <div>
-      
-    </div>
+    <>
+        <ProductGrid_list products={products}/>
+    </>
   );
 }
 

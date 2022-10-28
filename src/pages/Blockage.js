@@ -1,16 +1,14 @@
 import { Layout } from 'antd';
-import AppHeader from "../components/Header"
-import AppFooter from "../components/Footer"
-// import ProductList from "../components/ProductList";
-// import lighting from "../json/lighting.json"
+import ProductGrid_list from '../components/ProductGrid_list';
+import blockage from "../json/blockage.json";
 
 const { Header, Content, Footer } = Layout;
 
 function Blockage() {
   return (
-    <div>
-      
-    </div>
+    <>
+        <ProductGrid_list products={blockage}/>
+    </>
   );
 }
 

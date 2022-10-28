@@ -17,24 +17,23 @@ code {
 
 /* navbar */
 .nav{
-  background-color: #646464;
+  background-color: #C1B79F;
   color:white;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-
 }
 
 .word{
   color: #ffc755;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 
 .site-title{
-  font-size: 2rem;
+  font-size: 30px;
 }
 
 .nav ul{
@@ -59,17 +58,39 @@ code {
 }
 
 .nav a:hover{
+  color: #F6F3C1;
+  text-decoration: none;
+}
+
+.nav a:focus{
+  color: #FFE8A5;
+  text-decoration: none;
+}
+
+.word:hover{
   color: peru;
   text-decoration: none;
 }
 
-.nav li.active{
+
+.home_title {
+  color: #fff;
+}
+
+.home_title:hover {
+  color: #ffc755;
+}
+
+.site-image {
+  padding-top: 5px;
+}
+/* .nav li.active{
   background-color: beige;
 }
 
 .nav li:hover{
   background-color: lightyellow;
-}
+} */
 
 /* Footer */
 .footer {
@@ -81,7 +102,8 @@ code {
   font-size: 2rem;
   color:#ffc755;
   gap: 1rem;
-  
+  margin-left: 160px;
+  font-weight: bold;
 }
 
 .footer h4{
@@ -93,6 +115,12 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
+}
+.footer-item {
+  margin-left: 30px;
+}
+.footer-text {
+  margin-left: -100px;
 }
 
 
@@ -109,20 +137,14 @@ code {
 .fea h1{
   color: #646464;
   font-size: 30px;
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
 }
-
 
 /* RESERVATION PROCESS */
 
 .rp{
   background-color: white;
-
   display: flex;
   justify-content:center;
-  
 }
 
 .rp h1{
@@ -135,7 +157,110 @@ code {
   font-size: 15px;
 }
 
+.rp_Reserve{
+  background-color: white;
+  display: flex;
+  border-radius: 20px;
+  justify-content:center;
+}
 
+.rp_Reserve h1{
+  color: #646464;
+  font-size: 30px;
+}
+
+.rp_Reserve h3{
+  color: #646464;
+  font-size: 15px;
+}
+
+.form-title {
+  width: 100px;
+  float:left;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.form-optiontitle {
+  width: 200px;
+  float:left;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.form-right {
+  margin-left: 70px;
+}
+.input-style {
+  width: 200px;
+  float:left;
+}
+.email-style {
+  width: 570px;
+  float:left;
+}
+
+.select-style {
+  float:left;
+}
+.loc-style {
+  float:left;
+}
+
+.addr-style {
+  padding-left: 100px;
+}
+
+.sizetime-style {
+  width: 200px;
+}
+
+
+.form-total {
+  float:left;
+  vertical-align: middle;
+  text-align: left;
+}
+
+
+
+/* lg(1000以上) */
+@media (min-width: 992px) {
+  .form-right {
+    margin-left: 70px;
+  }
+}
+
+/* 992-1000 */
+@media (max-width: 1000px) {
+  .form-group {
+    width:calc(100%);
+    margin-bottom: 20px;
+  }
+  .form-right {
+    margin-left: 0;
+  }
+  .formh3 {
+    width:calc(100%);
+  }
+}
+/* xl(750-992) */
+/* @media (max-width: 992px) {
+  .form-title {
+    background-color: aqua;
+  }
+} */
+
+/* 750/992/1000 */
+/* width:calc(100% - 100px); */
+
+/* @media only screen and (max-width:992px) {
+  .service_info_lifeQrcodeWorkroom__2he0p {
+    top: 9999px
+  }
+  .detail_leftColumn {
+    display: none;
+  }
+} */
 
 .work {
   width: 100%;
@@ -147,6 +272,10 @@ code {
   justify-content: space-around;
 }
 
+.NewsItem {
+  background-color: #FFF;
+  box-shadow: 3px 0 5px rgba(0, 0, 0, .1);
+}
 .toppic {
   width: 100%;
   display:flex;
@@ -169,7 +298,6 @@ code {
 
 .news{
   background-color: #ffe8a5;
-
   display: flex;
   justify-content:center;
   
@@ -189,8 +317,8 @@ code {
 }
 
 .p-4 h3{
-  color: #3E3E3E;
-  font-size: 30px;
+  color: #646464;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
@@ -199,9 +327,9 @@ code {
 
 .p-4 h4{
   color: red;
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
-
+  line-height: 25px;
 }
 
 .p-4 h1{
@@ -216,13 +344,10 @@ code {
 
 .p-4 p{
   color: #3E3E3E;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  
-
-
 }
 
 
@@ -240,14 +365,12 @@ code {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-
 }
 
 .p-2 h4{
   color: #ffc755;
   font-size: 40px;
   display: flex;
-
 }
 
 .p-2 h1{
@@ -265,3 +388,15 @@ code {
   justify-content: space-between;
 }
 
+/* .process_image {
+  width: 100%;
+  height: 100%;
+  align-self:center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+.process_text {
+  margin-top: -50px;
+}
