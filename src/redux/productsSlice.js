@@ -19,5 +19,5 @@ export const selectProducts= (state)=> state.products.productsContent;
 //export actions to global
 export const {setProducts}=productsSlice.actions;
 
-8//export reducer to global
+//export reducer to global
 export default productsSlice.reducer;

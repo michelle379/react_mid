@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import productsReduser from "./productsSlice";
+import productsReducer from "./productsSlice";
 
 
 //Combine Reducers and Create a Store
 const store =configureStore({
     reducer:{
-        products:productsReducer
+        products: productsReducer
     },
     devTools:process.env.NODE_ENV !== 'production',
 });

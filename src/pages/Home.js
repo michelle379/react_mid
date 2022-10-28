@@ -3,9 +3,12 @@ import NewsList from '../components/NewsList';
 import ProcessList from "../components/ProcessList";
 import ToppictureList from "../components/ToppictureList";
 
+import { useSelector } from "react-redux";//加在所有商品頁、各商品頁
+import {selectProducts} from "../redux/productsSlice";//加在所有商品頁、各商品頁
 
 
 function Home() {
+  const products = useSelector(selectProducts);//加在所有商品頁、各商品頁
   return (
 
     <div>
@@ -42,7 +45,8 @@ function Home() {
       </div>
       <div className="rp">
         <div className="container" >
-          <ProcessList />
+          <ProcessList products={products} />
+          {/* 加在所有商品頁、各商品頁的<ProductsList /> */}
         </div>
       </div>
     </div>
